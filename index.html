@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poupanca</title>
+    <link rel="stylesheet" href="layout.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> POUPANÇA </div>
+
+        <div class="input">
+             <input placeholder="Informe o seu nome" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Valor a ser aplicado (em R$) Ex.: 200:" type="number" id='valormensal' required="required" >
+      </div>
+
+        <div class="input">
+            <input  placeholder="Informe a taxa de juros (em %) Ex.: 3"  type="number" id='juros'required="required">
+        </div>
+
+        <div class="input">
+          <input  placeholder="Informe o número de parcelas. Ex.: 40"  type="number" id='parcelas'required="required">
+      </div>
+
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>  
+
+      </div>
+    </main>
+    <script src="codigo.js"></script>
+  </body>
+</html>
